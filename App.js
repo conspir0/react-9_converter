@@ -25,7 +25,8 @@ class App extends React.Component {
 
   selectHandler = (e) => {
     this.setState({
-      selectedItem: e.target.value
+      selectedItem: e.target.value,
+      inputValue: ''
     })
   }
 
